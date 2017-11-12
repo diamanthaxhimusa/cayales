@@ -848,8 +848,8 @@ Nav Menu style
 Home Section style
 ==================*/
 
-.home{
-    background: url('../assets/images/homeCover.jpg') no-repeat scroll  center center;
+#home{
+    background: no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 300px;

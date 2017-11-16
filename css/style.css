@@ -843,6 +843,15 @@ Nav Menu style
     color:#fff;
 }
 
+.btn-service-nav {
+    width: 290px !important;
+    text-align:center !important;
+    color:#fff !important;
+}
+
+.btn-service-nav:hover {
+    color:#a80014 !important;
+}
 
 /*
 Home Section style

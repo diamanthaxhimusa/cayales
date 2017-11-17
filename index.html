@@ -36,7 +36,7 @@
 <body data-spy="scroll" data-target=".navbar-collapse">
     <!-- Preloader -->
     <div id="loading">
-        <div id="loading-center">
+        <div id="loading-center"><br>
             <div id="loading-center-absolute">
                 <div class="object" id="object_one"></div>
                 <div class="object" id="object_two"></div>
@@ -53,24 +53,34 @@
             <div class="navbar-top bg-grey fix">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <div class="navbar-callus text-left sm-text-center">
                                 <ul class="list-inline">
-                                    <li><a href=""><i class="fa fa-phone"></i> Téléphone: + 41 22 560 61 02</a></li>
-                                    <li><a href=""><i class="fa fa-phone"></i> Natel: + 41 79 328 17 37</a></li>
-                                    <li><a href=""><i class="fa fa-envelope-o"></i> Mail: info@cayales.ch</a></li>
+                                    <li>
+                                        <a href="javascript:;"><i class="fa fa-phone"></i> Téléphone : + 41 22 560 61 02</a>
+                                    </li>
+                                    <li><a href="javascript:;"><i class="fa fa-envelope-o"></i> Mail: info@cayales.ch</a></li>
+                                    <li><a href="javascript:;"><i class="fa fa-map-marker"></i> Adresse : Avenue Pictet de Rochemont 7 - 1208 GENÈVE</a></li>                                    
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
                             <div class="navbar-socail text-right sm-text-center">
                                 <ul class="list-inline">
                                     <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href=""><i class="fa fa-behance"></i></a></li>
-                                    <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="flag-icon flag-icon-fr">
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#"><span class="flag-icon flag-icon-fr"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flag-icon flag-icon-us"></span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -179,25 +189,25 @@
                                 <div class="business_itemss text-center">
                                     <div class="">
                                         <div class="business_img">
-                                            <img src="/assets/images/showcase1.png" alt="" />
+                                            <img src="./assets/images/showcase1.png" alt="" />
                                         </div>
                                     </div>
 
                                     <div class="">
                                         <div class="business_img">
-                                            <img src="assets/images/showcase2.png" alt="" />
+                                            <img src="./assets/images/showcase2.png" alt="" />
                                         </div>
                                     </div>
 
                                     <div class="">
                                         <div class="business_img">
-                                            <img src="assets/images/showcase3.png" alt="" />
+                                            <img src="./assets/images/showcase3.png" alt="" />
                                         </div>
                                     </div>
 
                                     <div class="">
                                             <div class="business_img">
-                                                <img src="assets/images/showcase4.png" alt="" />
+                                                <img src="./assets/images/showcase4.png" alt="" />
                                             </div>
                                         </div>    
                                 </div>
@@ -222,6 +232,36 @@
             </div>
         </section><!-- End off Business section -->
 
+        <section id="brand" class="brand fix p-top-40 p-bottom-80">
+            <div class="container">
+                <h1 class="text-center">Partenaires</h1>
+                <h4 class="p-bottom-30" style="text-align: center;color:#a8151e">Selon nos partenaires, notre savoir-faire est notre atout</h4>
+                <div class="row">
+                    <div class="main_brand text-center">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="brand_item sm-m-top-20">
+                                <img src="./assets/images/partner-ubs.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="brand_item sm-m-top-20">
+                                <img src="./assets/images/partner-getaz.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="brand_item sm-m-top-20">
+                                <img src="./assets/images/partner-axa.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="brand_item sm-m-top-20">
+                                <img src="./assets/images/partner-allianz.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="action" class="action bg-primary roomy-40">
             <div class="container">
@@ -243,13 +283,52 @@
                 </div>
             </div>
         </section>
-        <footer id="contact" class="footer action-lage bg-black p-top-80" style="color: black">
+        <footer id="contact" class="footer action-lage bg-black p-top-40" style="color: black">
             <div class="container">
-                <div class="row">
+                <div class="row p-bottom-40">
                     <div class="col-md-12" style="text-align:center;">
                         <h5 class="text-black"><q>rêver est un art, le réaliser est une œuvre....</q></h5>
                     </div>
                 </div>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <div class="contact-detail-box">
+                            <i class="fa fa-th fa-3x text-colored"></i>
+                            <h4>Get In Touch</h4>
+                            <abbr title="Phone">P:</abbr> (58) 414-357.61.81
+                            <br> E:
+                            <a href="mailto:carmenestelasi@gmail.com" class="text-muted">carmenestelasi@email.com</a>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                 
+                    <div class="col-sm-4">
+                        <div class="contact-detail-box">
+                            <i class="fa fa-map-marker fa-3x text-colored"></i>
+                            <h4>Our Location</h4>
+                
+                            <address>
+                                Carrera 15 entre 43 y 44.
+                                <br> Barquisimeto, Venezuela
+                                <br>
+                            </address>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                
+                    <div class="col-sm-4">
+                        <div class="contact-detail-box">
+                            <i class="fa fa-book fa-3x text-colored"></i>
+                            <h4>24x7 Support</h4>
+                
+                            <p>Industry's standard dummy text.</p>
+                            <h4 class="text-muted">1234 567 890</h4>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                
+                </div>
+                <!-- end row -->
                 <div class="row">
                     <div class="col-md-3" style="text-align:center;">
                         Politique de confidentialités
@@ -257,19 +336,15 @@
                     <div class="col-md-3" style="text-align:center;">
                         Mentions légales
                     </div>
-                    <div class="col-md-3" style="text-align:center;">
-                        Plan du site
-                    </div>
-                    <div class="col-md-3" style="text-align:center;">
-                            Partenaires
-                    </div>
                 </div>
             </div>
             
-            <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
+            <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-40">
                 <div class="col-md-12">
                     <p class="wow fadeInRight" data-wow-duration="1s">
-                            © 2017 Copyright CAYALES Rénovation SARL   -   Graphisme & Développement web: A.M - Atouts Consult.
+                        &#169; 2017 Copyright CAYALES Rénovation SARL - Développement web:
+                        <a target="_blank" href="http://incodeks.com/site/"
+                            style="color:rgb(55, 108, 255)">IN&#60;CODE&#62;KS</a>
                     </p>
                 </div>
             </div>

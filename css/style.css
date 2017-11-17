@@ -28,6 +28,33 @@ body {
 .page-content, 
 section { overflow: hidden; }
 
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-fr {
+  background-image: url(../assets/flags/fr.svg);
+}
+
+.flag-icon-us {
+  background-image: url(../assets/flags/us.svg);
+}
+
+
 /*
     On Scroll Animations 
 ------------------------------------------*/
@@ -639,7 +666,6 @@ textarea::-ms-input-placeholder{
     overflow: hidden;
 }
 .fix{
-    overflow: hidden;
     color: #202020;
 }
 /*heading title all area*/
@@ -1187,7 +1213,6 @@ work Section style
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: all 0.6s;
-    height: 30px;
 }
 .brand_item img:hover{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */

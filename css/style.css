@@ -640,6 +640,7 @@ textarea::-ms-input-placeholder{
 }
 .fix{
     overflow: hidden;
+    color: #202020;
 }
 /*heading title all area*/
 .head_title{

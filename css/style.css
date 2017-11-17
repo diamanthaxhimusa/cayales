@@ -28,6 +28,10 @@ body {
 .page-content, 
 section { overflow: hidden; }
 
+#lightgallery {
+    padding-bottom: 40px;
+}
+
 .flag-icon-background {
   background-size: contain;
   background-position: 50%;

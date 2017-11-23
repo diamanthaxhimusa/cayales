@@ -32,6 +32,24 @@ section { overflow: hidden; }
     padding-bottom: 40px;
 }
 
+hr {
+    clear: both;
+    border-color: #585656 !important;
+}
+.check-group {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.offer-form {
+    padding: 15px;
+    background-color: #f3efef;
+}
+
+.offer-form button {
+    float: right
+}
+
 .flag-icon-background {
   background-size: contain;
   background-position: 50%;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <?php
+  $to = "kushtrimlu@gmail.com";
+  $subject = "Offre";
+  $email = $_POST['email'];
+  $firstname = $_POST['firstname'];
+  $lastname = $_POST['lastname'];
+  $address = $_POST['address'];
+  $city = $_POST['city'];
+  $zipcode = $_POST['zipcode'];
+  $phonenum = $_POST['phonenum'];
+  $mobilenum = $_POST['mobilenum'];
+  $nouveau = $_POST['nouveau'];
+  $renovation = $_POST['renovation'];
+  $interieur = $_POST['interieur'];
+  $exterieur = $_POST['exterieur'];
+  $description = $_POST['description'];
+  // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+    // $eee = $_POST['eee'];
+  // $eee = $_POST['eee'];
+  
+  $message = "
+    <html>
+    <head>
+    <title>Offre</title>
+    </head>
+    <body>
+    <p>Adresse électronique: ".$email."</p>
+    <p>Nom:           ".$firstname."</p>
+    <p>Prénom:        ".$lastname."</p>
+    <p>Adresse:       ".$address."</p>
+    <p>Ville:         ".$city."</p>
+    <p>Code postal:   ".$zipcode."</p>
+    <p>Tél. domicile: ".$phonenum."</p>
+    <p>Tél. portable: ".$mobilenum."</p>
+    <p><b>Type de travaux souhaités:</b></p>
+    <p>Nouveau:         ".$nouveau."</p>
+    <p>Rénovation:      ".$renovation."</p>
+    <p>Intérieur:       ".$interieur."</p>
+    <p>Extérieur:       ".$exterieur."</p>
+    <p>Salle de bains:  </p>      
+    <p>Cuisines:        </p>        
+    <p>Sanitaires:      </p>        
+    <p>Électricités:    </p>        
+    <p>Chauffages:      </p>
+    <p>Carrelages:      </p>
+    <p>Façade:          </p>
+    <p>Cloisons:        </p>
+    <p>Peintures:       </p>
+    <p>Parquets:        </p>
+    <p>Revêtements:     </p>
+    <p>Faux plafond     </p>
+    <p>Isolations:      </p>
+    <p>Fenêtres:        </p>
+    <p>Autre:           </p>
+    <p>Personnalisé (préciser ) :</p>
+    </p>".$description."</p>
+    </body>
+    </html>
+  ";
+<table>
+  <thead>
+    <th>hello</th>
+  </thead>
+</table>
+
+</body>
+</html>

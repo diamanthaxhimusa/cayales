@@ -25,6 +25,10 @@ body {
     Page Content
 ------------------------------------------*/
 
+.legals-span {
+    font-weight: bold;
+}
+
 .page-content, 
 section { overflow: hidden; }
 
@@ -730,16 +734,9 @@ textarea::-ms-input-placeholder{
     position: absolute;
     left: 50%;
     top: 50%;
-    height: 50px;
-    width: 50px;
-    margin-top: -25px;
-    margin-left: -25px;
-    -ms-transform: rotate(45deg); 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg); 
-    -webkit-animation: loading-center-absolute 1.5s infinite;
-    animation: loading-center-absolute 1.5s infinite;
-
+    margin-top: -50px;
+    margin-left: -50px;
+    filter: brightness(24);
 }
 .object{
     width: 25px;
@@ -766,20 +763,6 @@ textarea::-ms-input-placeholder{
     -webkit-animation: object_four 1.5s infinite;
     animation: object_four 1.5s infinite;
 }
-
-
-@-webkit-keyframes loading-center-absolute {
-    100% { -webkit-transform: rotate(-45deg); }
-
-}
-
-@keyframes loading-center-absolute {
-    100% { 
-        transform:  rotate(-45deg);
-        -webkit-transform:  rotate(-45deg);
-    }
-}
-
 
 
 @-webkit-keyframes object_one {

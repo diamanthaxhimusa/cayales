@@ -121,29 +121,96 @@
 
         <!--Home Sections-->
         <!-- BACKGROUNG CHANGE -->
-        <section id="home" class="home bg-black fix" style="background: url('./assets/images/homeCover.jpg') no-repeat scroll center center;background-size: cover;">   
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="main_home text-center">
-                        <div class="col-md-12">
-                                <div class="slid_item">
-                                    <div class="home_text ">
-                                        <h2 class="text-white">Un besoin, un projet, une envie ?</h2>
-                                        <h1 class="text-white">Contactez-nous, nous vous conseillons gratuitement.</h1>
-                                        <h3 class="text-white">
-                                            <strong>Tel:
-                                                <span class="tel-num-cover" style="text-decoration: underline">079 385 26 23</span>
-                                            </strong>
-                                        </h3>
-                                    </div>
-                                    <div class="home_btns m-top-40">
-                                        <a href="./demande-offre.html" class="btn btn-primary m-top-20">Demander une offre</a>
-                                    </div>
-                                </div><!-- End off slid item -->
+        <section id="home" class="home bg-black fix" >   
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" style="background: url('./1.jpg') no-repeat scroll center center;background-size: cover;">
+                        <div class="slid_item">
+                            <div class="home_text ">
+                                <h2 class="text-white">Un besoin, un projet, une envie ?</h2>
+                                <h1 class="text-white">Contactez-nous, nous vous conseillons gratuitement.</h1>
+                                <h3 class="text-white">
+                                    <strong>Tel:
+                                        <span class="tel-num-cover" style="text-decoration: underline">079 385 26 23</span>
+                                    </strong>
+                                </h3>
+                            </div>
+                            <div class="home_btns m-top-40">
+                                <a href="./demande-offre.html" class="btn btn-primary m-top-20">Demander une offre</a>
+                            </div>
                         </div>
                     </div>
-                </div><!--End off row-->
+                    <div class="item" style="background: url('./2.jpg') no-repeat scroll center center;background-size: cover;">
+                        <div class="slid_item">
+                            <div class="home_text ">
+                                <h2 class="text-white">Un besoin, un projet, une envie ?</h2>
+                                <h1 class="text-white">Contactez-nous, nous vous conseillons gratuitement.</h1>
+                                <h3 class="text-white">
+                                    <strong>Tel:
+                                        <span class="tel-num-cover" style="text-decoration: underline">079 385 26 23</span>
+                                    </strong>
+                                </h3>
+                            </div>
+                            <div class="home_btns m-top-40">
+                                <a href="./demande-offre.html" class="btn btn-primary m-top-20">Demander une offre</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background: url('./3.jpg') no-repeat scroll center center;background-size: cover;">
+                        <div class="slid_item">
+                            <div class="home_text ">
+                                <h2 class="text-white">Un besoin, un projet, une envie ?</h2>
+                                <h1 class="text-white">Contactez-nous, nous vous conseillons gratuitement.</h1>
+                                <h3 class="text-white">
+                                    <strong>Tel:
+                                        <span class="tel-num-cover" style="text-decoration: underline">079 385 26 23</span>
+                                    </strong>
+                                </h3>
+                            </div>
+                            <div class="home_btns m-top-40">
+                                <a href="./demande-offre.html" class="btn btn-primary m-top-20">Demander une offre</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background: url('./4.jpg') no-repeat scroll center center;background-size: cover;">
+                        <div class="slid_item">
+                            <div class="home_text ">
+                                <h2 class="text-white">Un besoin, un projet, une envie ?</h2>
+                                <h1 class="text-white">Contactez-nous, nous vous conseillons gratuitement.</h1>
+                                <h3 class="text-white">
+                                    <strong>Tel:
+                                        <span class="tel-num-cover" style="text-decoration: underline">079 385 26 23</span>
+                                    </strong>
+                                </h3>
+                            </div>
+                            <div class="home_btns m-top-40">
+                                <a href="./demande-offre.html" class="btn btn-primary m-top-20">Demander une offre</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="fa fa-arrow-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class=" fa fa-arrow-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container">
+                <!-- End off row -->
             </div><!--End off container -->
         </section> <!--End off Home Sections-->
 

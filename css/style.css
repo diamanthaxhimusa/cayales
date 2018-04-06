@@ -350,6 +350,7 @@ ul{
     position: absolute;
     left:0;
     top: 0;
+    z-index: 999;
 }
 
 
@@ -899,10 +900,51 @@ Home Section style
     background: no-repeat scroll  center center;
     background-size: cover;
     position: relative;
-    padding-top: 300px;
-    padding-bottom: 190px;
+    height: 600px;
     width:100%;
 }
+
+#home > #myCarousel {
+    height: 100%;
+    width: 100%;
+}
+
+#home > #myCarousel .item {
+    height: 100%;
+    width: 100%;
+}
+
+#home > #myCarousel .carousel-inner {
+    height: 100%
+}
+
+
+#home > #myCarousel .carousel-inner .slid_item {
+    background-color: rgba(41, 39, 34, 0.50);
+    position: absolute;
+    /* top: 50%; */
+    display: flex;
+    /* left: 0; */
+    /* right: 0; */
+    width: 100%;
+    /* align-self: center; */
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#home > #myCarousel .carousel-control {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main_home .home_text h2{
     font-size:36px;
     font-weight: 400;

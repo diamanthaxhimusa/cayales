@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 	$secteur_du_projet = $_POST['secteur_du_projet'];
 	$type_de_travux = $_POST['type_de_travux'];
 	$formcontent="From: $name \n Message: $message";
-	$recipient = "fatos@cayales.ch";
+	$recipient = "diamanthaxhimusa@gmail.com
 	$subject = "Offre";
 	$mailheader = "From: $email \r\n";
 	$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
